@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 1 Notations and Functions | Introductory Mathematics for Economists with Matlab</title>
+  <meta name="description" content="Chapter 1 Notations and Functions | Introductory Mathematics for Economists with Matlab" />
+  <meta name="generator" content="bookdown 0.29 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 1 Notations and Functions | Introductory Mathematics for Economists with Matlab" />
+  <meta property="og:type" content="book" />
+  
+  <meta property="og:description" content="Chapter 1 Notations and Functions | Introductory Mathematics for Economists with Matlab" />
+  <meta name="github-repo" content="fanwangecon/Math4Econ" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 1 Notations and Functions | Introductory Mathematics for Economists with Matlab" />
+  
+  <meta name="twitter:description" content="Chapter 1 Notations and Functions | Introductory Mathematics for Economists with Matlab" />
+  
+
+<meta name="author" content="Priuz Saboury and Fan Wang" />
+
+
+<meta name="date" content="2023-01-22" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="index.html"/>
+<link rel="next" href="index-and-code-links.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-92953468-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-92953468-2');
+</script>
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Introductory Mathematics for Economists with Matlab</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Preface</a></li>
+<li class="chapter" data-level="1" data-path="notations-and-functions.html"><a href="notations-and-functions.html"><i class="fa fa-check"></i><b>1</b> Notations and Functions</a><ul>
+<li class="chapter" data-level="1.1" data-path="notations-and-functions.html"><a href="notations-and-functions.html#local-and-global-maximum"><i class="fa fa-check"></i><b>1.1</b> Local and Global Maximum</a></li>
+</ul></li>
+<li class="appendix"><span><b>Appendix</b></span></li>
+<li class="chapter" data-level="A" data-path="index-and-code-links.html"><a href="index-and-code-links.html"><i class="fa fa-check"></i><b>A</b> Index and Code Links</a><ul>
+<li class="chapter" data-level="A.1" data-path="index-and-code-links.html"><a href="index-and-code-links.html#notations-and-functions-links"><i class="fa fa-check"></i><b>A.1</b> Notations and Functions links</a></li>
+</ul></li>
+<li class="divider"></li>
+<li><a href="https://Math4Econ.github.io/bookdown/index.html" target="blank">Math4Econ Bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Introductory Mathematics for Economists with Matlab</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="notations-and-functions" class="section level1 hasAnchor">
+<h1><span class="header-section-number">Chapter 1</span> Notations and Functions<a href="notations-and-functions.html#notations-and-functions" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+
+<div id="local-and-global-maximum" class="section level2 hasAnchor">
+<h2><span class="header-section-number">1.1</span> Local and Global Maximum<a href="notations-and-functions.html#local-and-global-maximum" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Back to</strong> <a href="https://math4econ.github.io/"><strong>Intro Math for Econ</strong></a><strong>,</strong>
+[<strong>Matlab
+</strong>Definition**</p>
+<ul>
+<li><p><strong>Global Maximum:</strong> Function <span class="math inline">\(f\)</span> defined on domain <span class="math inline">\(X\)</span> has a
+<strong>global</strong> maximum at <span class="math inline">\(x^* \in X\)</span> if for all <span class="math inline">\(x\in X\)</span>,
+<span class="math inline">\(f(x)\le f(x^* )\)</span></p></li>
+<li><p><strong>Local Maximum:</strong> Function <span class="math inline">\(f\)</span> defined on domain <span class="math inline">\(X\)</span> has a
+<strong>local</strong> maximum at <span class="math inline">\(x^* \in X\)</span> if there exists an open interval
+<span class="math inline">\(\left(a,b\right)\)</span>, such that <span class="math inline">\(x^* \in \left(a,b\right)\)</span>, and for
+all <span class="math inline">\(x\in \left(a,b\right)\)</span>, <span class="math inline">\(f(x)\le f(x^* )\)</span></p></li>
+</ul>
+<p><strong>Many functions do not have maximum</strong></p>
+<p>We have utility function, production function, and budget constraints in
+economic models.</p>
+<p>When households make choices, they are picking the bundle of goods that
+gives them the highest level of utility.</p>
+<p>Most of the production and utility functions that we use do not have
+local or global maximum.</p>
+<p>For example, a cobb-douglas production function will produce ever higher
+output with more labor and capital input.</p>
+<p>And a log utility function will give higher utility with higher levels
+of consumption.</p>
+<p><strong><em>Note</em></strong>: When we combine perference and budget together, like we did
+in our two goods model, we could think about the optimal bundle of
+choices that achieves the highest level of utility given fixed budget in
+a household maximization problem.</p>
+<p><strong>Quadratic Utility</strong></p>
+<p>A special utility function, quadratic utility, however, does have a
+single maximum.</p>
+<p><span class="math display">\[U(x)=x-\alpha \cdot x^2\]</span></p>
+<p>We can write down the equation using matlab’s symbolic package</p>
+<pre><code>% Parameter
+a = 0.20;
+% Create symbolic equation in matlab
+syms x
+f(x) = x - a*x^2</code></pre>
+<p>f(x) =</p>
+<p><span class="math inline">\(\displaystyle x-\frac{x^2 }{5}\)</span></p>
+<p><strong>Matlab Analytical Global Maximum for Quadratic Utility</strong></p>
+<p>Matlab can find the <span class="math inline">\(x\)</span> value that maximizes the function by:</p>
+<ul>
+<li><p><strong>diff</strong> function: taking the derivative of f with respect to <span class="math inline">\(x\)</span></p></li>
+<li><p><strong>solve</strong> function: finding where the derivative crosses <span class="math inline">\(0\)</span></p></li>
+</ul>
+<!-- -->
+<pre><code>% Solve
+maxofx = solve(diff(f, x), x)</code></pre>
+<p>maxofx =</p>
+<p><span class="math inline">\(\displaystyle \frac{5}{2}\)</span></p>
+<pre><code>% Convert symbolic to double precision
+maxofx = double(maxofx)
+
+maxofx = 2.5000</code></pre>
+<p>We have found the global maximum for the function.</p>
+<p>A household will try to consume exactly this optimal amount of good if
+their budget allows.</p>
+<p>With quadratic utility over one good, even if the household can afford
+to buy more goods than the maximum amount, they will not.</p>
+<p>This could be used to approximate consumption of say how much rice a
+consumer wants for example.</p>
+<p><strong>Matlab Graphical Solution</strong></p>
+<pre><code>% Graph equation
+close all;
+figure();
+% Create minimum x and maximum x point where to draw the graph
+x_lower_bd = min(-10, maxofx-abs(maxofx)/2);
+x_upper_bd = max(10, maxofx+abs(maxofx)/2);
+% Draw the function
+fplot(f, [x_lower_bd, x_upper_bd]);
+% Label
+xlabel([&#39;X-axis, Quadratic Utility, max U reached at x=&#39;, num2str(maxofx)])
+ylabel([&#39;Utility&#39;])
+grid on</code></pre>
+<p><img src="img/localglobal_images/figure_0.png" width="500" /></p>
+
+</div>
+</div>
+
+
+
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="index.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="index-and-code-links.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": [["Introductory-Mathematics-for-Economists-with-Matlab.pdf", "PDF"]],
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/latest.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>

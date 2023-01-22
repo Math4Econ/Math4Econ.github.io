@@ -10,17 +10,3 @@ Files are from the [Math4Econ](https://github.com/Math4Econ/Math4Econ.github.io)
 From other repositories: For dynamic borrowing and savings problems, see [MEconTools](https://fanwangecon.github.io/MEconTools/) and [Dynamic Asset Repository](https://fanwangecon.github.io/CodeDynaAsset/); For code examples, see also [Matlab Example Code](https://fanwangecon.github.io/M4Econ/), [Stata Example Code](https://fanwangecon.github.io/Stata4Econ/), [Python Example Code](https://fanwangecon.github.io/pyfan/), [R Example Code](https://fanwangecon.github.io/R4Econ/); For intro econ with Matlab, see [Intro Mathematics for Economists](https://fanwangecon.github.io/Math4Econ/), and for intro stat with R, see [Intro Statistics for Undergraduates](https://fanwangecon.github.io/Stat4Econ/).
 
 [![](https://img.shields.io/github/last-commit/Math4Econ/Math4Econ.github.io)](https://github.com/Math4Econ/Math4Econ.github.io/commits/master) [![](https://img.shields.io/github/commit-activity/m/Math4Econ/Math4Econ.github.io)](https://github.com/Math4Econ/Math4Econ.github.io/graphs/commit-activity) [![](https://img.shields.io/github/issues/Math4Econ/Math4Econ.github.io)](https://github.com/Math4Econ/Math4Econ.github.io/issues) [![](https://img.shields.io/github/issues-pr/Math4Econ/Math4Econ.github.io)](https://github.com/Math4Econ/Math4Econ.github.io/pulls)
-
-# 1  Notations and Functions
-
-1. [Local and Global Maximum](https://fanwangecon.github.io/Math4Econ/calconevar/htmlpdfm/localglobal.html): [**mlx**](https://github.com/FanWangEcon/Math4Econ/blob/master/calconevar/localglobal.mlx) \| [**m**](https://github.com/FanWangEcon/Math4Econ/blob/master/calconevar/htmlpdfm/localglobal.m) \| [**pdf**](https://github.com/FanWangEcon/Math4Econ/blob/master/calconevar/htmlpdfm/localglobal.pdf) \| [**html**](https://fanwangecon.github.io/Math4Econ/calconevar/htmlpdfm/localglobal.html)
-	+ local and global maximum.
-	+ **m**: *syms + solve() + diff() + double() + double(solve(diff(f,x),x)), fplot(f,[x_low, x_high])*
-
-----
-![RepoSize](https://img.shields.io/github/repo-size/fanwangecon/Math4Econ)
-![CodeSize](https://img.shields.io/github/languages/code-size/fanwangecon/Math4Econ)
-![Language](https://img.shields.io/github/languages/top/fanwangecon/Math4Econ)
-![Release](https://img.shields.io/github/downloads/fanwangecon/Math4Econ/total)
-![License](https://img.shields.io/github/license/fanwangecon/Math4Econ)
-
