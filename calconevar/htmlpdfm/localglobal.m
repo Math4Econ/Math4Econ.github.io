@@ -12,27 +12,16 @@
 % that $x^* \in \left(a,b\right)$, and for all $x \in \left(a,b\right)$, $f(x) 
 % \le f(x^*)$
 %% 
-% *Many functions do not have maximum*
-% 
-% We have utility function, production function, and budget constraints in economic 
-% models. 
-% 
-% When households make choices, they are picking the bundle of goods that gives 
-% them the highest level of utility.
-% 
-% Most of the production and utility functions that we use do not have local 
-% or global maximum. 
-% 
-% For example, a cobb-douglas production function will produce ever higher output 
-% with more labor and capital input.
-% 
-% And a log utility function will give higher utility with higher levels of 
-% consumption. 
-% 
-% _*Note*_: When we combine perference and budget together, like we did in our 
-% two goods model, we could think about the optimal bundle of choices that achieves 
-% the highest level of utility given fixed budget in a household maximization 
-% problem. 
+% It should be noted that Many functions do not have maximum. We have utility 
+% function, production function, and budget constraints (and other functions) 
+% in economic models. When households make utility maximizing choices, they pick 
+% the bundle of goods that gives them the highest level of utility. Many of the 
+% production and utility functions that we use do not have local or global maximum. 
+% For example, a Cobb-Douglas production function will produce ever higher output 
+% with more labor and capital input. And a log utility function will give higher 
+% utility with higher levels of consumption. When we combine preference and budget 
+% together, we could think about the optimal bundle of choices that achieves the 
+% highest level of utility given fixed budget in a household maximization problem. 
 %% 
 % *Quadratic Utility*
 % 

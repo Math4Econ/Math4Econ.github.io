@@ -18,7 +18,7 @@ output:
   html_document:
     pandoc_args: '_output_kniti_html.yaml'
 always_allow_html: true
-github-repo: fanwangecon/Math4Econ
+github-repo: math4econ/math4econ.github.io
 ---
 
 ```{r global_options, include = FALSE}
@@ -29,11 +29,11 @@ source(".Rprofile")
 
 `r text_top_count`
 
-This is a work-in-progress [course website](https://Math4Econ.github.io/) for Mathematics for Economists. Course covers a limited subset of topics from [Mathematics for Economists](Mathematics for Economists) [@simonblume1994], and uses various definitions from the book. Applications focus on two period borrowing and savings problems. Matlab's symbolic toolbox is used throughout.
+This is a work-in-progress [course website](https://Math4Econ.github.io/) for Mathematics for Economists. Course covers a limited subset of topics from [Mathematics for Economists](Mathematics for Economists) [@simonblume1994], and uses various definitions from the book. Applications focus on households' optimal borrowing and savings problems and firms' optimal inputs problems. Matlab is used throughout.
 
-Materials are written in [matlab](https://www.mathworks.com/products/matlab.html) [@matlab] livescript files and shown as HTML files. To obtain matlab codes, see [here](docs/gitsetup.md) and [here](docs/gitsetupown.md) for github set up. For HTML files, click on the links below.
+Materials are written in [matlab](https://www.mathworks.com/products/matlab.html) [@matlab] livescript files and shown as HTML files.
 
-From other repositories: For dynamic borrowing and savings problems, see [Dynamic Asset Repository](https://fanwangecon.github.io/CodeDynaAsset/); For code examples, see also [R Example Code](https://fanwangecon.github.io/R4Econ/), [Matlab Example Code](https://fanwangecon.github.io/M4Econ/), and [Stata Example Code](https://fanwangecon.github.io/Stata4Econ/); For intro stat with R, see [Intro Statistics for Undergraduates](https://fanwangecon.github.io/Stat4Econ/). 
+From other repositories: For dynamic borrowing and savings problems, see [MEconTools](https://fanwangecon.github.io/MEconTools/) and [Dynamic Asset Repository](https://fanwangecon.github.io/CodeDynaAsset/); For code examples, see also [Matlab Example Code](https://fanwangecon.github.io/M4Econ/), [Stata Example Code](https://fanwangecon.github.io/Stata4Econ/), [Python Example Code](https://fanwangecon.github.io/pyfan/), [R Example Code](https://fanwangecon.github.io/R4Econ/); For intro econ with Matlab, see [Intro Mathematics for Economists](https://fanwangecon.github.io/Math4Econ/), and for intro stat with R, see [Intro Statistics for Undergraduates](https://fanwangecon.github.io/Stat4Econ/).
 
 The site is built using [Bookdown](https://bookdown.org/) [@R-bookdown].
 
