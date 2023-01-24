@@ -3,8 +3,8 @@
 % *Matlab Examples*>*, or* <https://fanwangecon.github.io/MEconTools/ *MEconTools*> 
 % *Repositories*
 %% Model Components and Maximization Problem
-% Assume that the firm has fixed free labor, but can choose capital input. At 
-% the start of a period, a firm rents capital inputs and combines capital with 
+% Assume that the firm has fixed free labor, but can choose capital inputs. 
+% At the start of a period, a firm rents capital inputs and combines capital with 
 % labor to produce. At the end of the period, the firm sells its output and pays 
 % interest rates based on how much capital it rented (no wage costs). Profit is 
 % denoted by π, period interest rate is $r$, the price of output is $p$, the firm 

@@ -86,7 +86,7 @@ print(paste0('spt_file_current:',spt_file_current))
 spt_file_current <- gsub(x = spt_file_current,  pattern = "_mod.Rmd", replacement = ".Rmd")
 
 if(!is.null(spt_file_current)) {
-  sfc_prj='/Math4Econ'
+  sfc_prj='/math4econ'
   sph_gitpages_root='https://math4econ.github.io/'
   sph_github_root='https://github.com/math4econ/math4econ.github.io'
   sph_branch='/main'
@@ -112,7 +112,7 @@ if(!is.null(spt_file_current)) {
   print(spth_pdf_html)
 
   sph_source_blob_root <- paste0(sph_github_root, sfc_prj, '/blob', sph_branch, spt_rmd_path, '/')
-  sph_source_blob_root <- gsub(tolower('math4econ.github.io/Math4Econ/'), tolower('math4econ.github.io/'), tolower(sph_source_blob_root))
+  sph_source_blob_root <- gsub('math4econ.github.io/Math4Econ/', 'math4econ.github.io/', sph_source_blob_root)
 
   sph_rmd_pdf = paste0(sph_source_blob_root, sph_pdf, '/', st_file_wno_suffix, '.pdf')
   sph_rmd_m = paste0(sph_source_blob_root, sph_r, '/', st_file_wno_suffix, '.m')
@@ -126,19 +126,19 @@ if(!is.null(spt_file_current)) {
   print(paste0('sph_rmd_html=', sph_rmd_html))
 
   st_head_link = '> Go to the'
-  sph_rmd_mlx = gsub('//', '/', tolower(sph_rmd_mlx))
-  sph_rmd_mlx = gsub('https:/', 'https://', tolower(sph_rmd_mlx))
+  sph_rmd_mlx = gsub('//', '/', sph_rmd_mlx)
+  sph_rmd_mlx = gsub('https:/', 'https://', sph_rmd_mlx)
   st_head_link = paste0(st_head_link, ' [**MLX**](', sph_rmd_mlx ,'),')
-  sph_rmd_m = gsub('//', '/', tolower(sph_rmd_m))
-  sph_rmd_m = gsub('https:/', 'https://', tolower(sph_rmd_m))
+  sph_rmd_m = gsub('//', '/', sph_rmd_m)
+  sph_rmd_m = gsub('https:/', 'https://', sph_rmd_m)
   st_head_link = paste0(st_head_link, ' [**M**](', sph_rmd_m ,'),')
-  sph_rmd_pdf = gsub('//', '/', tolower(sph_rmd_pdf))
-  sph_rmd_pdf = gsub('https:/', 'https://', tolower(sph_rmd_pdf))
+  sph_rmd_pdf = gsub('//', '/', sph_rmd_pdf)
+  sph_rmd_pdf = gsub('https:/', 'https://', sph_rmd_pdf)
   st_head_link = paste0(st_head_link, ' [**PDF**](', sph_rmd_pdf,'),')
-  sph_rmd_html = gsub(tolower('math4econ.github.io/math4econ.github.io/'), tolower('math4econ.github.io/'), tolower(sph_rmd_html))
-  sph_rmd_html = gsub('///', '/', tolower(sph_rmd_html))
-  sph_rmd_html = gsub('//', '/', tolower(sph_rmd_html))
-  sph_rmd_html = gsub('https:/', 'https://', tolower(sph_rmd_html))
+  sph_rmd_html = gsub('math4econ.github.io/math4econ.github.io/', 'math4econ.github.io/', sph_rmd_html)
+  sph_rmd_html = gsub('///', '/', sph_rmd_html)
+  sph_rmd_html = gsub('//', '/', sph_rmd_html)
+  sph_rmd_html = gsub('https:/', 'https://', sph_rmd_html)
   st_head_link = paste0(st_head_link, ' or [**HTML**](', sph_rmd_html ,')')
   st_head_link = paste0(st_head_link, ' version of this file.')
 
