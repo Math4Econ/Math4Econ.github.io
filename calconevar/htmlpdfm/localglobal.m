@@ -40,7 +40,8 @@ f(x) = x - a*x^2
 %% 
 % *Matlab Analytical Global Maximum for Quadratic Utility*
 % 
-% Matlab can find the $x$ value that maximizes the function by:
+% Matlab can find the $x$ value that maximizes the function by using the following 
+% functions from its symbolic toolbox:
 %% 
 % * *diff* function: taking the derivative of f with respect to $x$
 % * *solve* function: finding where the derivative crosses $0$
