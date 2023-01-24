@@ -8,30 +8,30 @@ rmd_files:
   - index.Rmd
 
   - calconevar/main.Rmd
-  # - calconevar/realnumber.Rmd
-  # - calconevar/interval.Rmd
-  # - calconevar/whatisfunction.Rmd
-  # - calconevar/funcnotations.Rmd
-  # - calconevar/polynomial.Rmd
+  - calconevar/realnumber.Rmd
+  - calconevar/interval.Rmd
+  - calconevar/whatisfunction.Rmd
+  - calconevar/funcnotations.Rmd
+  - calconevar/polynomial.Rmd
   - calconevar/localglobal.Rmd
 
-  # - explog/main.Rmd
-  # - explog/exponential.Rmd
-  # - explog/exolog.Rmd
+  - explog/main.Rmd
+  - explog/exponential.Rmd
+  - explog/exolog.Rmd
 
-  # - derivative/main.Rmd
-  # - derivative/derivative_rules.Rmd
-  # - derivative/continuous_differentiable.Rmd
-  # - derivative/derivative_elasticity.Rmd
-  # - derivative/derivative_MPL_first_order_taylor_approximation.Rmd
-  # - derivative/second_derivative.Rmd
+  - derivative/main.Rmd
+  - derivative/derivative_rules.Rmd
+  - derivative/continuous_differentiable.Rmd
+  - derivative/derivative_elasticity.Rmd
+  - derivative/derivative_MPL_first_order_taylor_approximation.Rmd
+  - derivative/second_derivative.Rmd
 
-  # - derivative_application/main.Rmd
-  # - derivative_application/derivative_MPL_discrete_workers.Rmd
-  # - derivative_application/derivative_cobb_douglas.Rmd
-  # - derivative_application/derivative_hslope_cobb_douglas.Rmd
-  # - derivative_application/K_save_households.Rmd
-  # - derivative_application/K_borrow_firm.Rmd
+  - derivative_application/main.Rmd
+  - derivative_application/derivative_MPL_discrete_workers.Rmd
+  - derivative_application/derivative_cobb_douglas.Rmd
+  - derivative_application/derivative_hslope_cobb_douglas.Rmd
+  - derivative_application/K_save_households.Rmd
+  - derivative_application/K_borrow_firm.Rmd
 
   # - matrix_basics/main.Rmd
   # - matrix_basics/matlab_define_matrix.Rmd
