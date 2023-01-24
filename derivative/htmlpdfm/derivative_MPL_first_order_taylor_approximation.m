@@ -3,7 +3,7 @@
 % *Matlab Examples*>*, or* <https://fanwangecon.github.io/MEconTools/ *MEconTools*> 
 % *Repositories*
 %% 
-% We often see these symbols: $\Delta$, $d$, $\partial$
+% We often see these symbols: $\Delta$, $d$, and $\partial$.
 % 
 % $\Delta{y}$ and $\Delta{x}$ are changes along the function graph: given some 
 % $x_0$: 

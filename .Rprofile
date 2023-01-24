@@ -112,7 +112,7 @@ if(!is.null(spt_file_current)) {
   print(spth_pdf_html)
 
   sph_source_blob_root <- paste0(sph_github_root, sfc_prj, '/blob', sph_branch, spt_rmd_path, '/')
-  sph_source_blob_root <- gsub('math4econ.github.io/Math4Econ/', 'math4econ.github.io/', sph_source_blob_root)
+  sph_source_blob_root <- gsub('math4econ.github.io/math4econ/', 'math4econ.github.io/', sph_source_blob_root)
 
   sph_rmd_pdf = paste0(sph_source_blob_root, sph_pdf, '/', st_file_wno_suffix, '.pdf')
   sph_rmd_m = paste0(sph_source_blob_root, sph_r, '/', st_file_wno_suffix, '.m')

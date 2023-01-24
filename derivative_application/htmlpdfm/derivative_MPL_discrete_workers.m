@@ -3,8 +3,8 @@
 % *Matlab Examples*>*, or* <https://fanwangecon.github.io/MEconTools/ *MEconTools*> 
 % *Repositories*
 %% Marginal Product of Additional Workers (Discrete Workers)
-% Suppose we can not hire fractions of workers, but have to hire 1, 2, 3, ... 
-% units of workers. What is the marginal product of each additional worker?
+% Suppose that we can not hire fractions of workers, but have to hire 1, 2, 
+% 3, ... units of workers. What is the marginal product of each additional worker?
 
 % fixed capital level
 K = 1;
