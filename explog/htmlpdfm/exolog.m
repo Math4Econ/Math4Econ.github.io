@@ -124,7 +124,7 @@
 %% 
 % For example:
 
-xVec = linspace(0,0.10,10);
+xVec = linspace(0.5,0.10,10);
 log(1+ xVec)
 xVec
 %% 

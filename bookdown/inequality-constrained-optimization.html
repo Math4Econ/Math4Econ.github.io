@@ -23,7 +23,7 @@
 <meta name="author" content="Priuz Saboury and Fan Wang" />
 
 
-<meta name="date" content="2023-01-24" />
+<meta name="date" content="2023-01-25" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -749,7 +749,7 @@ xlabel(&#39;interest rate (1+r)&#39;)</code></pre>
 borrowing problem: <a href="https://math4econ.github.io/derivative_application/K_save_households.html">unconstrained
 problem</a>.
 And we previously solved for the constrained savings and borrowing
-problem for the household without labor: <a href="https://math4econ.github.io/opti_hh_constrained_brsv/household_borrow_constrained.html">Constrained Household
+problem for the household without labor: <a href="https://math4econ.github.io/opti_hh_constrained_brsv_inequality/household_borrow_constrained.html">Constrained Household
 Borrowing</a>.</p>
 <div id="what-is-the-constrained-asset-choice-problem-with-labor" class="section level3 hasAnchor">
 <h3><span class="header-section-number">10.3.1</span> What is the constrained asset choice problem with labor?<a href="inequality-constrained-optimization.html#what-is-the-constrained-asset-choice-problem-with-labor" class="anchor-section" aria-label="Anchor link to header"></a></h3>
@@ -850,7 +850,7 @@ better interpret it, we plug <span class="math inline">\(\Omega\)</span> and <sp
 <p><span class="math display">\[b^{\ast ,unc} =\frac{\left(Z_1 +wT\right)\beta -\frac{1+\psi }{1+r}Z_2 }{1+\beta +\psi }\]</span></p>
 <p><span class="math display">\[{\textrm{work}}^{\ast ,unc} ={\textrm{H}}^{\ast ,unc} =T-\frac{Z_2 +b^{\ast ,unc} \cdot (1+r)}{\beta \cdot (1+r)}\cdot \frac{\psi }{w}\]</span></p>
 <p>The solution here is very similar to the solution we derived for the
-<a href="https://math4econ.github.io/optimization_application/household_c1_c2_constrained.html">borrowing and savings problem
+<a href="https://math4econ.github.io/opti_hh_constrained_brsv/household_c1_c2_constrained.html">borrowing and savings problem
 earlier</a>.
 Note that the key difference here is that wage and total time:
 <span class="math inline">\(w\cdot T\)</span> are simply increasing today’s endowment. When the individual
@@ -925,7 +925,7 @@ unconstrained optimal work and <span class="math inline">\(b\)</span> choices, i
 <p><strong>Formulating the Constraints as a System of Linear Equations</strong></p>
 <p>Matlab has a conveninent function that solves any constrained
 maximization problem, <strong><em>fmincon</em></strong>, we used it for one choice and one
-constraint before:<a href="https://math4econ.github.io/optimization_application/household_borrow_constrained.html">Constrained Household
+constraint before:<a href="https://math4econ.github.io/opti_hh_constrained_brsv_inequality/household_borrow_constrained.html">Constrained Household
 Borrowing</a>.
 Now we have four constraints and three choice variables, we write them
 all as less than or equal to:</p>

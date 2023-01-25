@@ -5,7 +5,7 @@
 %% 
 % We previously solved for the unconstrained household's savings and borrowing 
 % problem: <https://math4econ.github.io/derivative_application/K_save_households.html 
-% unconstrained problem>. And also the <https://math4econ.github.io/opti_hh_constrained_brsv/household_borrow_constrained.html 
+% unconstrained problem>. And also the <https://math4econ.github.io/opti_hh_constrained_brsv_inequality/household_borrow_constrained.html 
 % constrained optimization> problem with asset choice.
 %% Utility Maximization over Consumption in Two Periods
 % We solved the <https://math4econ.github.io/opti_hh_constrained_brsv/household_c1_c2_constrained.html 

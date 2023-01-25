@@ -3,11 +3,11 @@
 % *Matlab Examples*>*, or* <https://fanwangecon.github.io/MEconTools/ *MEconTools*> 
 % *Repositories*
 %% 
-% We have solved for the problem with <https://math4econ.github.io/optimization_application/household_asset_labor_constrained.html 
+% We have solved for the problem with <https://math4econ.github.io/opti_hh_constrained_brsv_inequality/household_asset_labor_constrained.html 
 % constrained labor and saving/borrowing choice>, and the problem with <https://math4econ.github.io/equilibrium/equilibrium_constrainedborrow.html 
 % saving/borrowing and tax>. 
 %% Household and Firm's Problem
-% Following our previous <https://math4econ.github.io/optimization_application/household_asset_labor_constrained.html 
+% Following our previous <https://math4econ.github.io/opti_hh_constrained_brsv_inequality/household_asset_labor_constrained.html 
 % discussions>, the household's borrowing constrained problem is: 
 %% 
 % * specifically: $\max_{b, \text{work}, \text{leisure}} \log(Z_1 + w\cdot \text{work}-b) 

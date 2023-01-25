@@ -3,7 +3,7 @@
 % *Matlab Examples*>*, or* <https://fanwangecon.github.io/MEconTools/ *MEconTools*> 
 % *Repositories*
 %% 
-% We have previous solved the household's asset supply problem with a <https://math4econ.github.io/optimization_application/household_borrow_constrained.html 
+% We have previous solved the household's asset supply problem with a <https://math4econ.github.io/opti_hh_constrained_brsv_inequality/household_borrow_constrained.html 
 % borrowing constraint>. And also the firm's <https://math4econ.github.io/derivative_application/K_borrow_firm.html 
 % asset demand problem>. We used first order taylor approximation to solve for 
 % the <https://math4econ.github.io/matrix_application/demand_supply_taylor_approximate_capital.html 
@@ -14,7 +14,7 @@
 % interest rate (borrowing) rate subsidy for firms and borrowing households that 
 % is paid for by savings tax.
 %% How do households with different $\beta$ respond to changes in $r$ given Borrowing Constraint?
-% Following our previous <https://math4econ.github.io/optimization_application/household_borrow_constrained.html 
+% Following our previous <https://math4econ.github.io/opti_hh_constrained_brsv_inequality/household_borrow_constrained.html 
 % discussions>, the household's borrowing constrained problem is: 
 %% 
 % * specifically: $\max_b \log(Z_1-b) + \beta_i \cdot \log(Z_2 + b\cdot (1+r))$

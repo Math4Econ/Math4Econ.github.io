@@ -45,7 +45,7 @@
 % we can bring the two periods together because the household is allowed to borrow 
 % and save. Given that we do not have uncertainty, our two period intertemporal 
 % problem has actually only one budget constraint. We can not do this for the 
-% problem with <https://math4econ.github.io/nonlinear/RiskyAsset.html uncertainty>. 
+% problem with <https://math4econ.github.io/uncertainty/RiskyAsset.html uncertainty>. 
 % 
 % The problem here is stated for $c_1$ and $c_2$, and is the intertemporal optimal 
 % choice problem. However, replace $c_1$ by apples consumed today, $c_2$ by bananas 

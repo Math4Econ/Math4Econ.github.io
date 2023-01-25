@@ -6,7 +6,7 @@
 % Suppose we have a household who will $z_2$ income (endowment) tomorrow, and 
 % has $z_1$ dollar income (endowment) income today. The household needs to determine 
 % how much to save/borrow. There is no uncertainty in this problem, we solve the 
-% problem with uncertainty again in: <https://math4econ.github.io/nonlinear/RiskyAsset.html 
+% problem with uncertainty again in: <https://math4econ.github.io/uncertainty/RiskyAsset.html 
 % Protofolio Choice: Investments in Risky (stocks) and Safe (bank) Assets, and 
 % Financing Risky Investments with Bank Loans>.
 % 

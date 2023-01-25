@@ -6,7 +6,7 @@
 % We previously solved for the unconstrained household's savings and borrowing 
 % problem: <https://math4econ.github.io/derivative_application/K_save_households.html 
 % unconstrained problem>. And we previously solved for the constrained savings 
-% and borrowing problem for the household without labor: <https://math4econ.github.io/opti_hh_constrained_brsv/household_borrow_constrained.html 
+% and borrowing problem for the household without labor: <https://math4econ.github.io/opti_hh_constrained_brsv_inequality/household_borrow_constrained.html 
 % Constrained Household Borrowing>.
 %% What is the constrained asset choice problem with labor?
 % We have endowments in two periods, $Z_1$ and $Z_2$. Households can choose 
@@ -114,7 +114,7 @@
 % $$\text{work}^{\ast, unc} = \text{H}^{\ast, unc} = T -  \frac{Z_2 + b^{\ast, 
 % unc} \cdot (1+r)}{\beta \cdot (1 + r)}\cdot \frac{\psi}{w}$$
 % 
-% The solution here is very similar to the solution we derived for the <https://math4econ.github.io/optimization_application/household_c1_c2_constrained.html 
+% The solution here is very similar to the solution we derived for the <https://math4econ.github.io/opti_hh_constrained_brsv/household_c1_c2_constrained.html 
 % borrowing and savings problem earlier>. Note that the key difference here is 
 % that wage and total time: $w\cdot T$ are simply increasing today's endowment. 
 % When the individual prefers leisure more, the individual is more likely to borrow. 
@@ -177,7 +177,7 @@ solu
 % *Formulating the Constraints as a System of Linear Equations*
 % 
 % Matlab has a conveninent function that solves any constrained maximization 
-% problem, _*fmincon*_, we used it for one choice and one constraint before:<https://math4econ.github.io/optimization_application/household_borrow_constrained.html 
+% problem, _*fmincon*_, we used it for one choice and one constraint before:<https://math4econ.github.io/opti_hh_constrained_brsv_inequality/household_borrow_constrained.html 
 % Constrained Household Borrowing>. Now we have four constraints and three choice 
 % variables, we write them all as less than or equal to:
 %% 

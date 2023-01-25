@@ -104,7 +104,7 @@
 
 \title{Introductory Mathematics for Economists with Matlab}
 \author{Priuz Saboury and Fan Wang}
-\date{2023-01-24}
+\date{2023-01-25}
 
 \begin{document}
 \maketitle
@@ -1141,7 +1141,7 @@ Approximately, for \(x\) small:
 For example:
 
 \begin{verbatim}
-xVec = linspace(0,0.10,10);
+xVec = linspace(0.5,0.10,10);
 log(1+ xVec)
 
 ans = 1x10    
@@ -2529,7 +2529,7 @@ Suppose we have a household who will \(z_2\) income (endowment) tomorrow,
 and has \(z_1\) dollar income (endowment) income today. The household
 needs to determine how much to save/borrow. There is no uncertainty in
 this problem, we solve the problem with uncertainty again in:
-\href{https://math4econ.github.io/nonlinear/RiskyAsset.html}{Protofolio Choice: Investments in Risky (stocks) and Safe (bank)
+\href{https://math4econ.github.io/uncertainty/RiskyAsset.html}{Protofolio Choice: Investments in Risky (stocks) and Safe (bank)
 Assets, and Financing Risky Investments with Bank
 Loans}.
 
@@ -6095,7 +6095,7 @@ possibility of saving it. Again, we can bring the two periods together
 because the household is allowed to borrow and save. Given that we do
 not have uncertainty, our two period intertemporal problem has actually
 only one budget constraint. We can not do this for the problem with
-\href{https://math4econ.github.io/nonlinear/RiskyAsset.html}{uncertainty}.
+\href{https://math4econ.github.io/uncertainty/RiskyAsset.html}{uncertainty}.
 
 The problem here is stated for \(c_1\) and \(c_2\), and is the intertemporal
 optimal choice problem. However, replace \(c_1\) by apples consumed today,
@@ -6429,7 +6429,7 @@ Go back to \href{https://math4econ.github.io/}{Introductory Mathematics for Econ
 We previously solved for the unconstrained household's savings and
 borrowing problem: \href{https://math4econ.github.io/derivative_application/K_save_households.html}{unconstrained
 problem}.
-And also the \href{https://math4econ.github.io/opti_hh_constrained_brsv/household_borrow_constrained.html}{constrained
+And also the \href{https://math4econ.github.io/opti_hh_constrained_brsv_inequality/household_borrow_constrained.html}{constrained
 optimization}
 problem with asset choice.
 
@@ -6794,7 +6794,7 @@ solu_c2 = (solu.c2);
 At two different interest rate levels, the optimal choices and utility
 at optimal choices are of course different, we can plot both out
 graphically following what we did
-\href{https://math4econ.github.io/optimization_application/household_c1_c2_constrained.html}{before}.
+\href{https://math4econ.github.io/opti_hh_constrained_brsv/household_c1_c2_constrained.html}{before}.
 Note that changing \(r\) directly changes both left hand side and right
 hand side of budget. If we were considering just apples and bananas,
 unless you sell apples or bananas, the price change would only impact
@@ -7435,7 +7435,7 @@ We previously solved for the unconstrained household's savings and
 borrowing problem: \href{https://math4econ.github.io/derivative_application/K_save_households.html}{unconstrained
 problem}.
 And we previously solved for the constrained savings and borrowing
-problem for the household without labor: \href{https://math4econ.github.io/opti_hh_constrained_brsv/household_borrow_constrained.html}{Constrained Household
+problem for the household without labor: \href{https://math4econ.github.io/opti_hh_constrained_brsv_inequality/household_borrow_constrained.html}{Constrained Household
 Borrowing}.
 
 \hypertarget{what-is-the-constrained-asset-choice-problem-with-labor}{%
@@ -7596,7 +7596,7 @@ Our optimal borrowing and savings choice is:
 \[{\textrm{work}}^{\ast ,unc} ={\textrm{H}}^{\ast ,unc} =T-\frac{Z_2 +b^{\ast ,unc} \cdot (1+r)}{\beta \cdot (1+r)}\cdot \frac{\psi }{w}\]
 
 The solution here is very similar to the solution we derived for the
-\href{https://math4econ.github.io/optimization_application/household_c1_c2_constrained.html}{borrowing and savings problem
+\href{https://math4econ.github.io/opti_hh_constrained_brsv/household_c1_c2_constrained.html}{borrowing and savings problem
 earlier}.
 Note that the key difference here is that wage and total time:
 \(w\cdot T\) are simply increasing today's endowment. When the individual
@@ -7724,7 +7724,7 @@ unconstrained optimal work and \(b\) choices, if the optimal unconstrained
 
 Matlab has a conveninent function that solves any constrained
 maximization problem, \textbf{\emph{fmincon}}, we used it for one choice and one
-constraint before:\href{https://math4econ.github.io/optimization_application/household_borrow_constrained.html}{Constrained Household
+constraint before:\href{https://math4econ.github.io/opti_hh_constrained_brsv_inequality/household_borrow_constrained.html}{Constrained Household
 Borrowing}.
 Now we have four constraints and three choice variables, we write them
 all as less than or equal to:
@@ -7942,7 +7942,7 @@ Go back to \href{https://math4econ.github.io/}{Introductory Mathematics for Econ
 \end{quote}
 
 We have previous solved the household's asset supply problem with a
-\href{https://math4econ.github.io/optimization_application/household_borrow_constrained.html}{borrowing
+\href{https://math4econ.github.io/opti_hh_constrained_brsv_inequality/household_borrow_constrained.html}{borrowing
 constraint}.
 And also the firm's \href{https://math4econ.github.io/derivative_application/K_borrow_firm.html}{asset demand
 problem}.
@@ -7961,7 +7961,7 @@ tax.
 \subsection{\texorpdfstring{How do households with different \(\beta\) respond to changes in \(r\) given Borrowing Constraint?}{How do households with different \textbackslash beta respond to changes in r given Borrowing Constraint?}}\label{how-do-households-with-different-beta-respond-to-changes-in-r-given-borrowing-constraint}}
 
 Following our previous
-\href{https://math4econ.github.io/optimization_application/household_borrow_constrained.html}{discussions},
+\href{https://math4econ.github.io/opti_hh_constrained_brsv_inequality/household_borrow_constrained.html}{discussions},
 the household's borrowing constrained problem is:
 
 \begin{itemize}
@@ -8357,7 +8357,7 @@ legend({'Excess Supply', ['Equilibrium r=' num2str(equilibrium_r)]}, 'Location',
 Go back to \href{https://math4econ.github.io/}{Introductory Mathematics for Economists with Matlab} (\href{https://math4econ.github.io/bookdown}{bookdown site}). Also see \href{http://fanwangecon.github.io/M4Econ}{M4Econ} and \href{https://fanwangecon.github.io/MEconTools/}{MEconTools}.
 \end{quote}
 
-We have solved for the problem with \href{https://math4econ.github.io/optimization_application/household_asset_labor_constrained.html}{constrained labor and
+We have solved for the problem with \href{https://math4econ.github.io/opti_hh_constrained_brsv_inequality/household_asset_labor_constrained.html}{constrained labor and
 saving/borrowing
 choice},
 and the problem with \href{https://math4econ.github.io/equilibrium/equilibrium_constrainedborrow.html}{saving/borrowing and
@@ -8367,7 +8367,7 @@ tax}.
 \subsection{Household and Firm's Problem}\label{household-and-firms-problem}}
 
 Following our previous
-\href{https://math4econ.github.io/optimization_application/household_asset_labor_constrained.html}{discussions},
+\href{https://math4econ.github.io/opti_hh_constrained_brsv_inequality/household_asset_labor_constrained.html}{discussions},
 the household's borrowing constrained problem is:
 
 \begin{itemize}

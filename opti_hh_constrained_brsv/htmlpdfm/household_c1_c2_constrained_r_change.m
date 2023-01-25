@@ -90,7 +90,7 @@ solu_c2 = (solu.c2);
 %% 
 % At two different interest rate levels, the optimal choices and utility at 
 % optimal choices are of course different, we can plot both out graphically following 
-% what we did <https://math4econ.github.io/optimization_application/household_c1_c2_constrained.html 
+% what we did <https://math4econ.github.io/opti_hh_constrained_brsv/household_c1_c2_constrained.html 
 % before>. Note that changing $r$ directly changes both left hand side and right 
 % hand side of budget. If we were considering just apples and bananas, unless 
 % you sell apples or bananas, the price change would only impact the left-hand-side 
