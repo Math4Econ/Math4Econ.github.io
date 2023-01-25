@@ -50,24 +50,24 @@ rmd_files:
   - matrix_application/demand_supply_taylor_approximate.Rmd
   - matrix_application/demand_supply_taylor_approximate_capital.Rmd
 
-  # - uncertainty/main.Rmd
-  # - uncertainty/RiskyAsset.Rmd
+  - uncertainty/main.Rmd
+  - uncertainty/RiskyAsset.Rmd
 
-  # - opti_firm_constrained/main.Rmd
-  # - opti_firm_constrained/profit_maximize.Rmd
-  # - opti_firm_constrained/profit_maximize_crs_profit.Rmd
-  # - opti_hh_constrained_brsv/household_c1_c2_constrained.Rmd
-  # - opti_hh_constrained_brsv/household_c1_c2_constrained_expmin.Rmd
-  # - opti_hh_constrained_brsv/household_c1_c2_constrained_r_change.Rmd
+  - opti_firm_constrained/main.Rmd
+  - opti_firm_constrained/profit_maximize.Rmd
+  - opti_firm_constrained/profit_maximize_crs_profit.Rmd
+  - opti_hh_constrained_brsv/household_c1_c2_constrained.Rmd
+  - opti_hh_constrained_brsv/household_c1_c2_constrained_expmin.Rmd
+  - opti_hh_constrained_brsv/household_c1_c2_constrained_r_change.Rmd
 
-  # - opti_hh_constrained_brsv_inequality/main.Rmd
-  # - opti_firm_constrained/KL_borrowhire_firm_inqc.Rmd
-  # - opti_hh_constrained_brsv_inequality/household_borrow_constrained.Rmd
-  # - opti_hh_constrained_brsv_inequality/household_asset_labor_constrained.Rmd
+  - opti_hh_constrained_brsv_inequality/main.Rmd
+  - opti_firm_constrained/KL_borrowhire_firm_inqc.Rmd
+  - opti_hh_constrained_brsv_inequality/household_borrow_constrained.Rmd
+  - opti_hh_constrained_brsv_inequality/household_asset_labor_constrained.Rmd
 
-  # - equilibrium/main.Rmd
-  # - equilibrium/equilibrium_constrainedborrow.Rmd
-  # - equilibrium/equilibrium_constrainedborrow_labor.Rmd
+  - equilibrium/main.Rmd
+  - equilibrium/equilibrium_constrainedborrow.Rmd
+  - equilibrium/equilibrium_constrainedborrow_labor.Rmd
 
   - README_appendix.md
   - title.Rmd
