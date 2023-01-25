@@ -80,3 +80,52 @@
 	+ Demand curve of capital (asset).
 	+ Overlay demand and supply curves, visualize interest rate equilibrium
 	+ **m**: *max() + diff() + solve() + plot() + scatter()*
+
+## Matrix Basics links
+
+1. [Laws of Matrix Algebra](https://Math4Econ.github.io/matrix_basics/htmlpdfm/matlab_define_matrix.html): [**mlx**](https://github.com/Math4Econ/Math4Econ.github.io/blob/main/matrix_basics/matlab_define_matrix.mlx) \| [**m**](https://github.com/Math4Econ/Math4Econ.github.io/blob/main/matrix_basics/htmlpdfm/matlab_define_matrix.m) \| [**pdf**](https://github.com/Math4Econ/Math4Econ.github.io/blob/main/matrix_basics/htmlpdfm/matlab_define_matrix.pdf) \| [**html**](https://Math4Econ.github.io/matrix_basics/htmlpdfm/matlab_define_matrix.html)
+	+ Scalar: Associative + Communtative + Distributive laws; Matrix: all apply except A times B != B times A.
+	+ **m**: *transpose()*
+2. [Matrix Addition and Multiplication](https://Math4Econ.github.io/matrix_basics/htmlpdfm/matrix_algebra_rules.html): [**mlx**](https://github.com/Math4Econ/Math4Econ.github.io/blob/main/matrix_basics/matrix_algebra_rules.mlx) \| [**m**](https://github.com/Math4Econ/Math4Econ.github.io/blob/main/matrix_basics/htmlpdfm/matrix_algebra_rules.m) \| [**pdf**](https://github.com/Math4Econ/Math4Econ.github.io/blob/main/matrix_basics/htmlpdfm/matrix_algebra_rules.pdf) \| [**html**](https://Math4Econ.github.io/matrix_basics/htmlpdfm/matrix_algebra_rules.html)
+	+ Scalar, matrices, and matrix dimensions.
+	+ **m**: *dot product*
+3. [Creating Matrixes in Matlab](https://Math4Econ.github.io/matrix_basics/htmlpdfm/matrix_matlab.html): [**mlx**](https://github.com/Math4Econ/Math4Econ.github.io/blob/main/matrix_basics/matrix_matlab.mlx) \| [**m**](https://github.com/Math4Econ/Math4Econ.github.io/blob/main/matrix_basics/htmlpdfm/matrix_matlab.m) \| [**pdf**](https://github.com/Math4Econ/Math4Econ.github.io/blob/main/matrix_basics/htmlpdfm/matrix_matlab.pdf) \| [**html**](https://Math4Econ.github.io/matrix_basics/htmlpdfm/matrix_matlab.html)
+	+ Vectors, matrixes and multiple matrixes.
+	+ **m**: *ceil() + eye() + tril() + triu() + rand(N,M,Q)*
+
+## System of Equations links
+
+1. [System of Linear Equations](https://Math4Econ.github.io/matrix_system_of_equations/htmlpdfm/matrix_linear_equations.html): [**mlx**](https://github.com/Math4Econ/Math4Econ.github.io/blob/main/matrix_system_of_equations/matrix_linear_equations.mlx) \| [**m**](https://github.com/Math4Econ/Math4Econ.github.io/blob/main/matrix_system_of_equations/htmlpdfm/matrix_linear_equations.m) \| [**pdf**](https://github.com/Math4Econ/Math4Econ.github.io/blob/main/matrix_system_of_equations/htmlpdfm/matrix_linear_equations.pdf) \| [**html**](https://Math4Econ.github.io/matrix_system_of_equations/htmlpdfm/matrix_linear_equations.html)
+	+ One or multiple linear equations.
+	+ Coefficient matrix and augmented form.
+2. [Solving for Two Equations and Two Unknowns](https://Math4Econ.github.io/matrix_system_of_equations/htmlpdfm/matrix_linear_system_2.html): [**mlx**](https://github.com/Math4Econ/Math4Econ.github.io/blob/main/matrix_system_of_equations/matrix_linear_system_2.mlx) \| [**m**](https://github.com/Math4Econ/Math4Econ.github.io/blob/main/matrix_system_of_equations/htmlpdfm/matrix_linear_system_2.m) \| [**pdf**](https://github.com/Math4Econ/Math4Econ.github.io/blob/main/matrix_system_of_equations/htmlpdfm/matrix_linear_system_2.pdf) \| [**html**](https://Math4Econ.github.io/matrix_system_of_equations/htmlpdfm/matrix_linear_system_2.html)
+	+ Two equations and two unknowns matrix form.
+	+ Graphical intersection of two lines.
+	+ Using linear solver linsolve.
+	+ **m**: *linsolve + double(solve(y_1 - y_2 == 0))*
+3. [System of Linear Equations Row Echelon Form](https://Math4Econ.github.io/matrix_system_of_equations/htmlpdfm/matrix_row_echelon_form.html): [**mlx**](https://github.com/Math4Econ/Math4Econ.github.io/blob/main/matrix_system_of_equations/matrix_row_echelon_form.mlx) \| [**m**](https://github.com/Math4Econ/Math4Econ.github.io/blob/main/matrix_system_of_equations/htmlpdfm/matrix_row_echelon_form.m) \| [**pdf**](https://github.com/Math4Econ/Math4Econ.github.io/blob/main/matrix_system_of_equations/htmlpdfm/matrix_row_echelon_form.pdf) \| [**html**](https://Math4Econ.github.io/matrix_system_of_equations/htmlpdfm/matrix_row_echelon_form.html)
+	+ Two equations and two unknowns.
+	+ Elementary row operations and row echelon form.
+4. [Matrix Inverse](https://Math4Econ.github.io/matrix_system_of_equations/htmlpdfm/matrix_inverse.html): [**mlx**](https://github.com/Math4Econ/Math4Econ.github.io/blob/main/matrix_system_of_equations/matrix_inverse.mlx) \| [**m**](https://github.com/Math4Econ/Math4Econ.github.io/blob/main/matrix_system_of_equations/htmlpdfm/matrix_inverse.m) \| [**pdf**](https://github.com/Math4Econ/Math4Econ.github.io/blob/main/matrix_system_of_equations/htmlpdfm/matrix_inverse.pdf) \| [**html**](https://Math4Econ.github.io/matrix_system_of_equations/htmlpdfm/matrix_inverse.html)
+	+ Find the inverse of a matrix.
+
+## Matrix Applications links
+
+1. [Firm Maximization Problem with Capital and Labor](https://Math4Econ.github.io/matrix_application/htmlpdfm/KL_borrowhire_firm.html): [**mlx**](https://github.com/Math4Econ/Math4Econ.github.io/blob/main/matrix_application/KL_borrowhire_firm.mlx) \| [**m**](https://github.com/Math4Econ/Math4Econ.github.io/blob/main/matrix_application/htmlpdfm/KL_borrowhire_firm.m) \| [**pdf**](https://github.com/Math4Econ/Math4Econ.github.io/blob/main/matrix_application/htmlpdfm/KL_borrowhire_firm.pdf) \| [**html**](https://Math4Econ.github.io/matrix_application/htmlpdfm/KL_borrowhire_firm.html)
+	+ First order conditions Cobb-Douglas production function with Capital and Labor.
+	+ Log linearize first order conditions, matrix form and linsolve Cobb-Douglas production function.
+	+ Own and cross price elasticities
+	+ **m**: *linsolve() + simplify(exp(linsolve())) + mesh() + meshgrid() + contourf() + clabel() + zlabel()*
+2. [Household Maximization with Two Goods and Budget](https://Math4Econ.github.io/matrix_application/htmlpdfm/twogoods.html): [**mlx**](https://github.com/Math4Econ/Math4Econ.github.io/blob/main/matrix_application/twogoods.mlx) \| [**m**](https://github.com/Math4Econ/Math4Econ.github.io/blob/main/matrix_application/htmlpdfm/twogoods.m) \| [**pdf**](https://github.com/Math4Econ/Math4Econ.github.io/blob/main/matrix_application/htmlpdfm/twogoods.pdf) \| [**html**](https://Math4Econ.github.io/matrix_application/htmlpdfm/twogoods.html)
+	+ Preference over two good, cobb douglas utility.
+	+ Indifference curves and budget set.
+	+ **m**: *linspace() + meshgrid() + mesh() + contourf() + clabel() + colormap() + zlabel() + plot()*
+3. [Capital Demand and Supply Equilibrium Analysis](https://Math4Econ.github.io/matrix_application/htmlpdfm/demand_supply_taylor_approximate.html): [**mlx**](https://github.com/Math4Econ/Math4Econ.github.io/blob/main/matrix_application/demand_supply_taylor_approximate.mlx) \| [**m**](https://github.com/Math4Econ/Math4Econ.github.io/blob/main/matrix_application/htmlpdfm/demand_supply_taylor_approximate.m) \| [**pdf**](https://github.com/Math4Econ/Math4Econ.github.io/blob/main/matrix_application/htmlpdfm/demand_supply_taylor_approximate.pdf) \| [**html**](https://Math4Econ.github.io/matrix_application/htmlpdfm/demand_supply_taylor_approximate.html)
+	+ Simplified nonlinear form of demand and supply as functions or the interest rate.
+	+ First order Taylor linear approximation of nonlinear demand and supply.
+	+ **m**: *diff() + subs(S,r,1) + linsolve()*
+4. [First Order Taylor Approximation of Demand and Supply Curves](https://Math4Econ.github.io/matrix_application/htmlpdfm/demand_supply_taylor_approximate_capital.html): [**mlx**](https://github.com/Math4Econ/Math4Econ.github.io/blob/main/matrix_application/demand_supply_taylor_approximate_capital.mlx) \| [**m**](https://github.com/Math4Econ/Math4Econ.github.io/blob/main/matrix_application/htmlpdfm/demand_supply_taylor_approximate_capital.m) \| [**pdf**](https://github.com/Math4Econ/Math4Econ.github.io/blob/main/matrix_application/htmlpdfm/demand_supply_taylor_approximate_capital.pdf) \| [**html**](https://Math4Econ.github.io/matrix_application/htmlpdfm/demand_supply_taylor_approximate_capital.html)
+	+ Exact solutions for (approximated) equilibrium interest rate and asset supply/demand given linearized demand and supply equations.
+	+ Graphical illustration of exact equilibrium and linear approximated equilibrium.
+	+ Analyze how productivity, elasticity, wealth, discount factor impact equilibrium prices and quantity given exact solutions to linear approximation.
+	+ **m**: *linspace() + subs(diff(S,r), r, r0) + subs(D, {Z,beta}, {Z_num, beta_num}) + fplot() + plot() + line.Color + line.LineStyle*

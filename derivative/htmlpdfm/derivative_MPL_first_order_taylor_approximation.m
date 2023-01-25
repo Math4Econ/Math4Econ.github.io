@@ -84,7 +84,7 @@ increaseOutput = YL1 - YL0
 increaseOutput = double(increaseOutput)
 % new level of output
 newLevelOutput = double(YL1)
-%% *Approximate Output Increase with Derivative (MPL)*
+%% Approximate Output Increase with Derivative (MPL)
 % Remember as we have seen, the slope of the tangent line at $L_0$ is similar 
 % to the slope of the line between $L_0+h$ and $L_0$, from the definition of derivative, 
 % for $h$ small, the following should be true:

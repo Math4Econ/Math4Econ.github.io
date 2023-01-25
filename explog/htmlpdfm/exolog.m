@@ -3,13 +3,13 @@
 % *Matlab Examples*>*, or* <https://fanwangecon.github.io/MEconTools/ *MEconTools*> 
 % *Repositories*
 %% 
-% We use log for log utility in our <https://fanwangecon.github.io/Math4Econ/derivative_application/K_save_households.html 
+% We use log for log utility in our <https://math4econ.github.io/derivative_application/K_save_households.html 
 % household maximization problems>, and we use exponential functions with other 
-% bases for <https://fanwangecon.github.io/Math4Econ/derivative_application/K_borrow_firm.html 
+% bases for <https://math4econ.github.io/derivative_application/K_borrow_firm.html 
 % production functions>. 
 % 
-% _See also_: <https://fanwangecon.github.io/Math4Econ/explog/exponential.html 
-% Exponential and Infinitely Compounding Interest Rate>.
+% _See also_: <https://math4econ.github.io/explog/exponential.html Exponential 
+% and Infinitely Compounding Interest Rate>.
 %% Log and Exponential
 % If the natural log of $x$ is $y$ (in economics we generally just write ln 
 % and log interchangeably, becareful though, google thinks function log means 
